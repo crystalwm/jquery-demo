@@ -1,0 +1,21 @@
+div#left-content {
+    display: inline-block;
+}
+
+div#right-content {
+    display: inline-block;
+}
+
+select {
+    width: 80px;
+    height: 200px;
+}
+
+div#left-select-part, div#left-select-all,
+div#right-select-part,div#right-select-all{
+    background: gold;
+    color: white;
+    padding: 5px;
+    margin:2px;
+    cursor: pointer;
+}

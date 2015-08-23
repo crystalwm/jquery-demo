@@ -1,0 +1,19 @@
+form li {
+    list-style-type: none;
+    margin: 5px;
+}
+form {
+    display: inline-block;
+}
+/*
+在IE6中只对超链接元素支持hover伪类，其他的元素不支持hover 伪类。这个时候我们可以通过使用jquery来兼容IE6
+input:hover,textarea:hover {
+    border: 1px solid yellow;
+    background: antiquewhite;
+}
+*/
+.focus{
+    border: 1px solid yellow;
+    background: antiquewhite;
+
+}
